@@ -1,0 +1,71 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f3cf5b;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgb(250, 128, 94));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+    }
+.sidebar{
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #f1a3a3a7;
+    border-radius: 10px;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+float: left;
+    right:0;
+   flex-direction: column;
+   align-items: center; 
+}
+.sidebaritem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebartitle{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a7a7;
+    border-bottom: 1px solid #a7a7a7;
+    color: #222;
+    text-align: center;
+}
+.sidebaritem > img{
+    margin-top:  15px;
+
+
+}
+.sidebaritem > p{
+    padding: 30px;
+}
+.sidebarlist{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.sidebarlistitem{
+   display: inline-block;
+   width: 50%;
+   margin-top: 15px;
+   cursor: pointer;
+}
+.sidebarsocial{
+    margin-top: 15px;
+    width: 250px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebaricon{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 9px;
+}
+
+
